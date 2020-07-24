@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MarissaPop</title>
+    <link rel="stylesheet" href="animation.css" />
+</head>
+
+<body>
+    
+
+<div onclick="removeBubble('bubble1')" class="bubbles" id="bubble1"><h1>M</h1></div> 
+
+<div onclick="removeBubble('bubble2')" class="bubbles" id="bubble2"><h1>A</h1></div> 
+
+<div onclick="removeBubble('bubble3')" class="bubbles" id="bubble3"><h1>R</h1></div> 
+
+<div onclick="removeBubble('bubble4')" class="bubbles" id="bubble4"><h1>I</h1></div> 
+
+<div onclick="removeBubble('bubble5')" class="bubbles" id="bubble5"><h1>S</h1></div> 
+
+<div onclick="removeBubble('bubble6')" class="bubbles" id="bubble6"><h1>S</h1></div> 
+
+<div onclick="removeBubble('bubble7')" class="bubbles" id="bubble7"><h1>A</h1></div> 
+
+ <script>
+     function removeBubble(bubbleNumber){
+         const elem = document.getElementById(bubbleNumber)
+         document.body.removeChild(elem)
+     }
+ </script>   
+</body>
+
+
+
+
+
+
+
+
+</html>
